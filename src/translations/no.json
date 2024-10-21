@@ -1,0 +1,123 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Standardfarge"
+                }
+            },
+            "day_style": {
+                "title": "Vis hendelsestid som",
+                "values": {
+                    "default": "Dato",
+                    "counter": "dager til",
+                    "weekday": "ukedag",
+                    "custom": "Brukerdefinert datoformat"
+                }
+            },
+            "day_style_format": {
+                "title": "Brukerdefinert datoformat",
+                "helper": "Definer ditt eget datoformat. (dd = dag med ledende 0, d = dag, MM = måned med ledende 0, M = måned, yy = kort år, yyyy = langt år) F.eks. dd.MM.yyyy = 03.04.2024, der d.M.yy = 3.4.24 blir resultatet."
+            },
+            "card_style": {
+                "title": "Vis som",
+                "values": {
+                    "card": "Standardkort",
+                    "chip": "Chipkort",
+                    "icon": "Ikon"
+                }
+            },
+            "alignment_style": {
+                "title": "Justering",
+                "values": {
+                    "left": "venstre",
+                    "center": "sentral",
+                    "right": "høyre",
+                    "space": "med avstand"
+                }
+            },
+            "color_mode": {
+                "title": "Bruk farge til",
+                "values": {
+                    "background": "Bakgrunn",
+                    "icon": "Ikon"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Standardlayout",
+                    "vertical": "Vertikal layout",
+                    "horizontal": "Horisontal layout"
+                }
+            },
+            "tabs": {
+                "settings": "Innstillinger",
+                "appearance": "Utseende",
+                "patterns": "Mønster"
+            },
+            "refresh_rate": {
+                "title": "Oppdateringsintervall",
+                "helper": "Sjekk endringer i kalenderen hvert x minutt"
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Ikonfarge",
+                "layout": "Layout",
+                "fill_container": "Full container",
+                "next_days": "Dager frem i tid",
+                "filter_events": "Filtrer hendelser etter mønster",
+                "drop_todayevents_from": "Fra hvilken tid heldagshendelser skal skjules",
+                "full_size": "Kort uten margin",
+                "use_summary": "Oppsummering i stedet for etikett",
+                "hide_time_range": "Skjul tid",
+                "event_grouping": "Vis kun neste hendelse for mønster",
+                "icon_size": "Ikonstørrelse",
+                "with_label": "Vis etikett"
+            },
+            "trash": {
+                "pattern": {
+                    "title": "Rediger mønster",
+                    "edit": "rediger",
+                    "delete": "slett",
+                    "create": "Opprett nytt mønster",
+                    "new_custom_label": "Nytt mønster",
+                    "type": {
+                        "organic": "Organisk",
+                        "paper": "Papir",
+                        "recycle": "Resirkulering",
+                        "waste": "Søppel",
+                        "others": "Andre"
+                    },
+                    "fields": {
+                        "label": "Etikett",
+                        "color": "Farge",
+                        "icon": "Ikon",
+                        "pattern": "Deteksjonsmønster",
+                        "picture_url": "Bilde-URL",
+                        "picture_url_description": "Hvis en bilde-URL er angitt, vises bildet i stedet for ikonet. Plasser et bilde i mappen `/config/www` og bruk `/local/[filnavn]`."
+                    }
+                }
+            }
+        }
+    },
+    "card": {
+        "not_found": "Entiteten ble ikke funnet",
+        "trash": {
+            "today": "i dag",
+            "tomorrow": "i morgen",
+            "day": "<DAY>",
+            "today_from_till": "I dag\nfra <START> til <END>",
+            "tomorrow_from_till": "I morgen\nmellom <START> og <END>",
+            "day_from_till": "<DAY>\nmellom <START> og <END>",
+            "daysleft": "om <DAYS> dag",
+            "daysleft_more": "om <DAYS> dager",
+            "daysleft_from_till": "om <DAYS> dag\nmellom <START> og <END>",
+            "daysleft_more_from_till": "om <DAYS> dager\nmellom <START> og <END>",
+            "daysleftend": "slutter om <DAYS> dag",
+            "daysleftend_more": "slutter om <DAYS> dager",
+            "daysleftend_till": "slutter om <DAYS> dag\nkl <END>",
+            "daysleftend_more_till": "slutter om <DAYS> dager\nkl <END>"
+        }
+    }
+}
