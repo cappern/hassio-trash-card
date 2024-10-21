@@ -12,6 +12,7 @@ import * as ptBr from './translations/pt-br.json';
 import * as sk from './translations/sk.json';
 import * as sl from './translations/sl.json';
 import * as sv from './translations/sv.json';
+import * as no from './translations/no.json';
 
 import type { HomeAssistant, LocalizeFunc } from './utils/ha';
 
@@ -30,7 +31,8 @@ const languages: Record<string, unknown> = {
   'pt-BR': ptBr,
   sk,
   sl,
-  sv
+  sv,
+  no
 };
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
